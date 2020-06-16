@@ -1,0 +1,110 @@
+body{
+  background-image: url("背景.jpg");
+  margin: 0;
+}
+ 
+/* img{
+  width: 100%;
+  height: 300px;
+} */
+  
+ /* header{
+   height: 276px;
+   width: 100%;
+ } */
+
+ header > h1 { 
+   font-size: 40px;
+   color: red;
+   position: absolute;
+   top: 3%;
+   left: 40%;
+ }
+
+ .title > h1{
+   margin-top: 20px;
+   height: 60px;
+   color: purple;
+   background: linear-gradient(to right, #ee846d 0%, #f29a67 25%, #ed86b3);
+   /* border-left: solid;
+   border-color: rgb(130, 195, 238);
+   border-width: 20px; */
+   text-align: center;
+   line-height: 60px;
+ }
+
+ @media screen and (max-width: 600px) {
+   img{
+     width: 100%;
+   }
+
+ p {
+  padding: 10px;
+ }  
+
+.top {
+  border-bottom: dotted;
+  border-width: 10px;
+  border-color: violet;
+  }
+
+  .ami {
+    border-bottom: dotted;
+    border-width: 10px;
+    border-color: violet;
+  }
+    
+
+ footer {
+   margin-top: 30px;
+ } 
+  
+ .cm {
+   font-size: 30px;
+   color: tomato;
+ }
+
+ .cmm {
+  font-size: 25px;
+  color: purple;
+ }
+
+.slide {
+  position: relative;
+  overflow: hidden;
+  width: 350px;
+  height: 250px;
+  margin: auto;
+  background: rgba(255, 255, 255, 0);
+}
+  
+p a {
+  font-size: 25px;
+}
+
+  .slide img {
+    display    : block;
+    position   : absolute;
+                        /* 画像のサイズを表示エリアに合せる */
+    width      : inherit;
+    height     : inherit;
+    opacity    : 0;
+    animation  : slideAnime 25s ease infinite;
+  }
+   
+   /*=== スライドのアニメーションを段差で開始する ========= */
+  .slide img:nth-of-type(1) { animation-delay: 0s }
+  .slide img:nth-of-type(2) { animation-delay: 5s }
+  .slide img:nth-of-type(3) { animation-delay: 10s }
+  .slide img:nth-of-type(4) { animation-delay: 15s }
+  .slide img:nth-of-type(5) { animation-delay: 20s }
+   
+   /*=== スライドのアニメーション ========================= */
+  @keyframes slideAnime{
+     0% { opacity: 0 }
+    10% { opacity: 1 }
+    20% { opacity: 1 }
+    30% { opacity: 0 }
+   100% { opacity: 0 }
+  }
+} 
