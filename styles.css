@@ -1,0 +1,162 @@
+body {
+  margin: 0;
+  background-image: url(bg.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  
+}
+
+.logo { 
+  /* text-align: center; */
+  margin-bottom: 24px;
+}
+  
+  
+  img{
+    width: 100%;
+    }
+  
+  .m-title {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10vw;
+    color: #6d5a5a;
+    position: absolute;
+    top: 4%;
+    left:45%;
+  }
+
+  .s-title {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 4vw;
+    color: #a5759e;
+    position: absolute;
+    top: 11%;
+    left:40%;
+  }
+
+
+.container {
+  width: 95%;
+  margin:0 auto;
+  }
+
+
+ 
+  .boxcase2{
+    display: flex;
+    align-items: center;
+   
+    margin-bottom: 30px;
+    border-style: solid;
+    border-width: ４px;
+    border-color: black;
+  }
+    
+    
+    
+  .ttl{
+    background: black;
+    text-align: center;
+    font-size: 5vw;
+    line-height: 50px;
+    color: white;
+  }
+   
+  
+   
+  .text{
+    /* background: blue; */
+    color: black;
+    height: 180px;
+    padding: 0px 3px;
+    flex: 2.5;
+    overflow: scroll;
+  }
+
+  a { color: red; 
+    text-decoration: none;
+  }
+  
+  .con-img {
+    flex: 1;
+  }
+   
+   
+    
+  p {
+  font-size: 5vw;  
+  margin-top: 5px;
+  padding-left: 10px;
+  }
+    
+
+  @media (min-width: 567px){
+    .m-title {
+      font-family: Verdana, Arial, Helvetica, sans-serif;
+      font-size: 10vw;
+      color: #6d5a5a;
+      position: absolute;
+      top:10%;
+      left:45%;
+    }
+  
+    .s-title {
+      font-family: Verdana, Arial, Helvetica, sans-serif;
+      font-size: 4vw;
+      color: #a5759e;
+      position: absolute;
+      top:33%;
+      left:40%;
+    }
+
+    .text {
+      height: 350px;
+    }
+  }
+    
+  
+  @media (min-width: 767px){
+    .m-title {
+      font-family: Verdana, Arial, Helvetica, sans-serif;
+      font-size: 10vw;
+      color: #6d5a5a;
+      position: absolute;
+      top:4%;
+      left:45%;
+    }
+  
+    .s-title {
+      font-family: Verdana, Arial, Helvetica, sans-serif;
+      font-size: 4vw;
+      color: #a5759e;
+      position: absolute;
+      top:14%;
+      left:40%;
+    }
+  }
+
+
+    @media (min-width: 810px){
+      .m-title {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 10vw;
+        color: #6d5a5a;
+        position: absolute;
+        top:4%;
+        left:45%;
+      }
+    
+      .s-title {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 4vw;
+        color: #a5759e;
+        position: absolute;
+        top:30%;
+        left:40%;
+      }
+    }
+      
+
+
+
